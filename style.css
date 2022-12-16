@@ -1,0 +1,174 @@
+/* Couleurs */ 
+
+:root{
+    --rose : #FF1F80;
+    --purple : #8B8AE5;
+    --light-gris :  #bfb9b9;
+    --gris : #B1B1B1;
+    --darkpurple : #1D1E2C;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.mg_1200{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 65px;
+    height: 70px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+    color: var(--darkpurple);
+    font-size: 25px;
+}
+
+.titre{
+    text-align: center;
+    padding: 3rem 0;
+    color: var(--darkpurple);
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+}
+
+.searchTerm {
+    width: 100%;
+    border:  solid var(--gris);
+    border-right: none;
+    padding: 15px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+.searchButton {
+    width: 30%;
+    padding: 12px;
+    background: var(--purple);
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    border: solid var(--purple);
+    border-radius: 0 5px 5px 0;
+  }
+
+.titre2{
+    padding: 3rem 0 1rem 0;
+    color: var(--darkpurple);
+}
+
+.cardDog{
+    display: flex;
+    width: 100%;
+    gap: 10%;
+    font-size: 20px;
+}
+
+.cardDog2{
+    border: 1px solid #1D1E2C;
+    border-radius: 10px;
+}
+
+.dogimg{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+p{
+    color: var(--light-gris);
+}
+
+.cardTitre{
+    color: var(--darkpurple);
+}
+
+.btn_card{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: var(--purple);
+    color: #fff;
+    font-weight: 1000;
+    font-size: 15px;
+    background-color: var(--purple);
+    float: right;
+    transform: translateY(-25px);
+}
+
+.commentCard{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.date{
+    padding: 1px;
+}
+
+.titreAvis{
+    padding: 4px
+}
+
+.nomProprio{
+    padding: 1px;
+}
+
+.text{
+    padding: 1px;
+    color: var(--darkpurple);
+}
+
+
+footer{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    margin-top: 5rem;
+    padding: 5rem;
+    background-color: var(--title);
+    border-top: 2px solid var(--light-gris);
+    padding: 5px;
+    
+}
+
+footer .divFooter{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .mg-1200 .links .footerTitle{
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+footer .mg-1200 .links ul{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
